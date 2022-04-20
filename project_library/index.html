@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon .ico" type="image/x-icon" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>My Library</h1>
+    </header>
+    <main>
+      <section class="forms">
+        <!-- event.preventDefault() -->
+        <form onsubmit="event.preventDefault()" action="" method="get">
+          <div class="form-container">
+            <div class="title-form">
+              <label for="title">Title:</label>
+              <input type="text" id="title" name="title" />
+            </div>
+            <div class="author-form">
+              <label for="author">Author:</label>
+              <input type="text" id="author" name="author" />
+            </div>
+            <div class="pages-form">
+              <label for="pages">Pages:</label>
+              <input type="text" id="pages" name="pages" />
+            </div>
+            <div class="read-form">
+              <label for="read">Read:</label>
+              <input type="checkbox" id="read" name="read" />
+            </div>
+            <div class="submit-form">
+              <input
+                type="submit"
+                id="submit"
+                name="submit"
+                value="+ Add Book"
+              />
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="container">
+        <!-- book details css -->
+        <!-- <div class="book">
+          <p class="book-title"></p>
+          <p class="author-name"></p>
+          <p class="page-number"></p>
+          <p class="read-status"></p>
+          <button class="remove-book"></button> -->
+      </section>
+    </main>
+  </body>
+</html>
